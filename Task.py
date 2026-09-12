@@ -4,7 +4,7 @@ even_num = (x for x in list1 if x%2 ==0)
 for num in even_num:
     print(num,end=" ")
 
-items = ["apple", "banana", "cherry","grapes"]
+items = ["apple", "banana", "cherry","grapes","Kiwi","oranges","honey"]
 prices = [0.5, 0.3, 0.2]
 my_dict = {key:value for key,value in zip(items,prices)}
 print(my_dict)
